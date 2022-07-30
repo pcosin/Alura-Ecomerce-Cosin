@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Star cup",
+      "category": "star-wars",
+      "price": 60,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://canary.contestimg.wish.com/api/webimage/604b0ceb19c595f8722e58a5-large.jpg?cache_buster=6486863b90c60ca0b49255d7d84a8706"
+    },
+    {
+      "id": 2,
+      "name": "Star Lego",
+      "category": "star-wars",
+      "price": 70,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_936141-MLA31593099817_072019-F.webp"
+    },
+    {
+      "id": 3,
+      "name": "Yoda",
+      "category": "star-wars",
+      "price": 100,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_784286-MLA48451408654_122021-F.webp"
+    },
+    {
+      "id": 4,
+      "name": "Trooper",
+      "category": "star-wars",
+      "price": 50,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_712743-MLA49689085270_042022-F.webp"
+    },
+    {
+      "id": 5,
+      "name": "Baby Yoda",
+      "category": "star-wars",
+      "price": 40,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-mandalorian-portada-baby-yoda-1599662623.jpeg?crop=0.522xw:0.392xh;0.149xw,0.239xh&resize=640:*"
+    },
+    {
+      "id": 6,
+      "name": "Joystick",
+      "category": "star-wars",
+      "price": 80,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_985396-MLA48603518368_122021-F.webp"
+    },
+    {
+      "id": 7,
+      "name": "X-box",
+      "category": "console",
+      "price": 60,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_963862-MLA45041918050_032021-F.webp"
+    },
+    {
+      "id": 8,
+      "name": "Atari",
+      "category": "console",
+      "price": 70,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_927315-MLA32731490461_112019-F.webp"
+    },
+    {
+      "id": 9,
+      "name": "Nintendo",
+      "category": "console",
+      "price": 100,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_643092-MLA32731593255_112019-F.webp"
+    },
+    {
+      "id": 10,
+      "name": "Super Joystick",
+      "category": "console",
+      "price": 50,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_649035-MLA46428243528_062021-F.webp"
+    },
+    {
+      "id": 11,
+      "name": "Consola YXZ",
+      "category": "console",
+      "price": 40,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_949848-MLA47429160885_092021-F.webp"
+    },
+    {
+      "id": 12,
+      "name": "GameBoy",
+      "category": "console",
+      "price": 80,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_966564-MLA32731490045_112019-F.webp"
+    },
+    {
+      "id": 13,
+      "name": "Switch Panel",
+      "category": "diversos",
+      "price": 80,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://s.alicdn.com/@sc04/kf/H029f6f7b54e54d00a564bbce21150bb40.jpg_220x220.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Mixer",
+      "category": "diversos",
+      "price": 60,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_740859-MLA50170852588_062022-F.webp"
+    },
+    {
+      "id": 15,
+      "name": "Valve",
+      "category": "diversos",
+      "price": 70,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_726758-MLA31606830641_072019-F.webp"
+    },
+    {
+      "id": 16,
+      "name": "Teclado",
+      "category": "diversos",
+      "price": 100,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_706328-MLA45168986839_032021-F.webp"
+    },
+    {
+      "id": 17,
+      "name": "Stream Deck",
+      "category": "diversos",
+      "price": 50,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_683509-MLA41825622693_052020-F.webp"
+    },
+    {
+      "id": 18,
+      "name": "Joystick 4 ejes",
+      "category": "diversos",
+      "price": 40,
+      "description": "Facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_2X_644273-MLA48011325787_102021-F.webp"
+    }
+  ]
+}

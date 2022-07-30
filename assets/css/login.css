@@ -1,0 +1,102 @@
+.section-login {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-block: 1rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min(100% - 1rem, 450px);
+  margin-inline: auto;
+}
+
+.btn-entrar {
+  display: inline-block;
+}
+
+.input-container {
+  font-weight: var(--font-weigth-input);
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.input {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 1.375rem 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+}
+
+.input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: 1.375rem;
+  left: 0.5rem;
+  font-size: var(--font-size-input-label);
+
+  transition: all 0.25s;
+}
+
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+  border: 1px solid var(--warning-color);
+  border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+  color: var(--warning-color);
+}
+
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: var(--warning-color);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.not-registred-login {
+  padding-block: 0.7rem;
+  color: blue;
+}
+
+.loginErrorMessage {
+  color: red;
+  padding-block: 0.5rem;
+}

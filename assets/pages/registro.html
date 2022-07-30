@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura-Ecomerce || Crear cuenta</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/components/card.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="primary-nav flex wrapper">
+        <div class="logo">
+          <a href="../../index.html"><img class="icon-logo" src="../img/Logo.png" alt="" /></a>
+        </div>
+          <div class="search-bar"><input type="text" placeholder="¿Qué desea buscar?" /></div>
+      </div>
+    </header>
+    <main>
+      <section class="flex flex--column flex--center">
+      <section class="cartao">
+        <h2 class="card__title">Completa tu registro</h2>
+        <form action="" class="formulario flex flex--column" id="signUp">
+        
+            <div class="input-container">
+              <input
+                name="name"
+                id="name-registro"
+                class="input signUpInput"
+                type="text"
+                placeholder="Nombre"
+                required
+              />
+              <label class="input-label" for="name">Nombre</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="email"
+                id="email-registro"
+                class="input signUpInput"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <label class="input-label" for="email">Email</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="password"
+                id="password-registro"
+                class="input signUpInput"
+                type="password"
+                placeholder="Contraseña"
+                required
+                minlength="6"
+                required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+              />
+              <label class="input-label" for="password">Contraseña</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="password2"
+                id="userConfirmPassword"
+                class="input signUpInput"
+                type="password"
+                placeholder="Contraseña"
+                required
+                minlength="6"
+                required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+              />
+              <label class="input-label" for="password2">Repetir contraseña</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+         
+          <button type="submit" class="button" value="Crear Usuario">Registrar</button>
+        </form>
+        <div class="text-center register-log">
+          <a class="not-registred-login" href="login.html">¿Ya tienes cuenta? Logueate aquí</a>
+        </div>
+      </section>
+      </section>
+        <section class="section-contact ">
+        <div class="wrapper flex-contact">
+          <div class="logo">            <a href="../../index.html"><img class="icon-logo" src="../img/Logo.png" alt="" /></a>
+</div>
+          <div class="contact-list">
+          <ul>
+              <li><a href="">Quienes somos</a></li>
+              <li><a href="">Política de privacidad</a></li>
+              <li><a href="">Programa de fidelidad</a></li>
+              <li><a href="">Nuestras tiendas</a></li>
+              <li><a href="">Quiero ser franquiciado</a></li>
+              <li><a href="">Anuncie aquí</a></li>
+
+          </ul>
+          </div>
+         <div class="form-contact">
+          <form action="" class="formulario" id="form-contact">
+              <div class="form-container">                 
+               <h4>Hable con nosotros</h4>  
+               <div class="input-container">
+                  <!-- <label class="input-label" for="name">Nombre</label> -->
+                   <input name="name" id="name-contact" class="input" type="text" placeholder="Nombre" required>
+                  
+                   <!-- <span class="input-message-error">Este campo no es valido</span> -->
+               </div>
+               <div class="input-container">
+                   <textarea name="text" id="text" class="input" type="text" placeholder="Escriba su mensaje" cols="55" rows="4" required></textarea>
+                 
+                   <!-- <span class="input-message-error">Este campo no es valido</span> -->
+               </div>
+   
+               <button type="submit" class="button">Enviar mensaje</button> 
+           
+              </div>
+              
+               
+           </form>
+         </div>
+        </div>
+
+      </section>
+
+  </main>   
+  <footer>
+      <div class="footer-text text-center"><p>Desarrollado por Pablo Cosin</p>
+      <p>2022</p>
+      </div>
+  </footer>
+    </main>
+    <script src="../js/register.js"></script>
+      <script src="../js/contact.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
