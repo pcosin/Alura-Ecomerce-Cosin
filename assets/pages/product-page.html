@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Alura Ecomerce</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/single-product.css" />
+    <title>Alura Ecomerce || Product</title>
   </head>
   <body>
     <header>
       <div class="primary-nav flex wrapper">
         <div class="flex center">
           <div class="logo">
-            <a href="index.html"><img class="icon-logo" src="./assets/img/Logo.png" alt="" /></a>
+            <a href="../../index.html"><img class="icon-logo" src="../img/Logo.png" alt="" /></a>
           </div>
           <div class="search-bar"><input type="text" placeholder="¿Qué desea buscar?" /></div>
         </div>
-        <div class="login-btn" data-login-true-false>
-          <a href="./assets/pages/login.html"> Login</a>
-        </div>
+        <!-- <div class="login-btn"><a href="./newProduct.html"> Agregar producto</a></div> -->
       </div>
     </header>
     <main>
-      <div class="hero-section">
-        <div class="hero-section--text wrapper">
-          <h1 class="hero-section-h1">Febrero Promocional</h1>
-          <h3 class="hero-section-h3">Productos seleccionados con 33% de descuento</h3>
-          <div class="button btn-hero">Ver Consolas</div>
+      <section class="section wrapper">
+        <div class="single-product-wrapper" data-productSingle>
+          <!-- <div class="img-product">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_644273-MLA48011325787_102021-F.webp"
+              alt=""
+            />
+          </div>
+          <div class="single-product-text">
+            <h3 class="single-title">Producto XYZ</h3>
+            <p class="single-price">$ 60</p>
+            <p class="single-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos, tenetur error
+              accusamus aliquid non quaerat labore tempore nihil voluptates?
+            </p>
+          </div> -->
         </div>
-      </div>
+      </section>
       <section class="section section-main-products wrapper">
-        <div class="products-name products-star-wars">
-          <h3>Star Wars</h3>
-          <button class="ver-todo-btn">Ver todo</button>
+        <div class="products-name products-all">
+          <h3>Productos similares</h3>
         </div>
-        <div class="cards cards-star-wars" data-starWars>
+        <div class="cards cards-all" data-productsAll>
           <!-- <div class="card">
                     <img src="./assets/img/products/product-star-1.png" alt="">
                     <h4 class="tittle">sdfasd</h4>
@@ -43,40 +52,15 @@
                     <a href="">Ver producto</a>
                 </div> -->
         </div>
-
-        <div class="products-name products-console">
-          <h3>Consolas</h3>
-          <button class="ver-todo-btn">Ver todo</button>
-        </div>
-        <div class="cards cards-console" data-console>
-          <!-- <div class="card">
-                    <img src="./assets/img/products/product-star-1.png" alt="">
-                    <h4 class="tittle"></h4>
-                    <div class="price">$ </div>
-                    <a href="">Ver producto</a>
-                </div> -->
-        </div>
-        <div class="products-name products-diversos">
-          <h3>Diversos</h3>
-          <button class="ver-todo-btn">Ver todo</button>
-        </div>
-        <div class="cards cards-console" data-diversos>
-          <!-- <div class="card">
-                    <img src="./assets/img/products/product-star-1.png" alt="">
-                    <h4 class="tittle"></h4>
-                    <div class="price">$ </div>
-                    <a href="">Ver producto</a>
-                </div> -->
-        </div>
       </section>
       <section class="section-contact">
         <div class="wrapper flex-contact">
           <div class="logo">
-            <a href="index.html"><img class="icon-logo" src="./assets/img/Logo.png" alt="" /></a>
+            <a href="../../index.html"><img class="icon-logo" src="../img/Logo.png" alt="" /></a>
           </div>
           <div class="contact-list">
             <ul>
-              <li><a href="./assets/pages/product-page.html">Quienes somos</a></li>
+              <li><a href="">Quienes somos</a></li>
               <li><a href="">Política de privacidad</a></li>
               <li><a href="">Programa de fidelidad</a></li>
               <li><a href="">Nuestras tiendas</a></li>
@@ -129,8 +113,7 @@
         <p>2022</p>
       </div>
     </footer>
-    <script src="./assets/js/contact.js"></script>
-    <!-- <script src="../assets/js/stock.js"></script> -->
-    <script type="module" src="./assets/js/main.js"></script>
+    <script type="module" src="../js/single-product.js"></script>
+    <script src="../js/contact.js"></script>
   </body>
 </html>

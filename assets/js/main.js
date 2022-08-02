@@ -1,6 +1,6 @@
 import { getData } from "../../services/getData.js";
 
-const createProductsStar = async () => {
+export const createProductsStar = async () => {
   const starProductsDOM = document.querySelector("[data-starWars]");
 
   const productos = await getData();
@@ -13,12 +13,26 @@ const createProductsStar = async () => {
         <img src="${product.img}" alt="">
         <h4 class="tittle">${product.name}</h4>
         <div class="price">$ ${product.price}</div>
-        <a href="">Ver producto</a>
+        <a id ="boton${product.id}"  href="#">Ver producto </a>
     
         `;
       starProductsDOM.appendChild(div);
+      const btnSingleProduct = document.getElementById(`boton${product.id}`);
+      btnSingleProduct.addEventListener("click", () => {
+        linkToSingleProduct(product.id);
+      });
     }
   });
+
+  const linkToSingleProduct = (id) => {
+    let single = productos.find((item) => item.id === id);
+    console.log(single);
+    console.log(single.id);
+    let params = new URLSearchParams();
+    params.append("single", JSON.stringify(single));
+
+    location.href = "./assets/pages/product-page.html?" + params.toString();
+  };
 };
 
 const createProductsConsole = async () => {
@@ -34,12 +48,26 @@ const createProductsConsole = async () => {
         <img src="${product.img}" alt="">
         <h4 class="tittle">${product.name}</h4>
         <div class="price">$ ${product.price}</div>
-        <a href="">Ver producto</a>
+        <a id ="boton${product.id}">Ver producto</a>
     
         `;
       consoleProductsDOM.appendChild(div);
+      const btnSingleProduct = document.getElementById(`boton${product.id}`);
+      btnSingleProduct.addEventListener("click", () => {
+        linkToSingleProduct(product.id);
+      });
     }
   });
+
+  const linkToSingleProduct = (id) => {
+    let single = productos.find((item) => item.id === id);
+    console.log(single);
+    console.log(single.id);
+    let params = new URLSearchParams();
+    params.append("single", JSON.stringify(single));
+
+    location.href = "./assets/pages/product-page.html?" + params.toString();
+  };
 };
 
 const createProductsDiversos = async () => {
@@ -55,12 +83,26 @@ const createProductsDiversos = async () => {
         <img src="${product.img}" alt="">
         <h4 class="tittle">${product.name}</h4>
         <div class="price">$ ${product.price}</div>
-        <a href="">Ver producto</a>
+        <a id ="boton${product.id}">Ver producto</a>
     
         `;
       diversosProductsDOM.appendChild(div);
+      const btnSingleProduct = document.getElementById(`boton${product.id}`);
+      btnSingleProduct.addEventListener("click", () => {
+        linkToSingleProduct(product.id);
+      });
     }
   });
+
+  const linkToSingleProduct = (id) => {
+    let single = productos.find((item) => item.id === id);
+    console.log(single);
+    console.log(single.id);
+    let params = new URLSearchParams();
+    params.append("single", JSON.stringify(single));
+
+    location.href = "./assets/pages/product-page.html?" + params.toString();
+  };
 };
 
 const logUser = () => {
