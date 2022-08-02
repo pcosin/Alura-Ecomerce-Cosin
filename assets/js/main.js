@@ -2,9 +2,7 @@ import { getData } from "../../services/getData.js";
 
 export const createProductsStar = async () => {
   const starProductsDOM = document.querySelector("[data-starWars]");
-
   const productos = await getData();
-
   productos.forEach((product) => {
     if (product.category === "star-wars") {
       let div = document.createElement("div");
@@ -26,8 +24,6 @@ export const createProductsStar = async () => {
 
   const linkToSingleProduct = (id) => {
     let single = productos.find((item) => item.id === id);
-    console.log(single);
-    console.log(single.id);
     let params = new URLSearchParams();
     params.append("single", JSON.stringify(single));
 
@@ -61,8 +57,6 @@ const createProductsConsole = async () => {
 
   const linkToSingleProduct = (id) => {
     let single = productos.find((item) => item.id === id);
-    console.log(single);
-    console.log(single.id);
     let params = new URLSearchParams();
     params.append("single", JSON.stringify(single));
 
@@ -96,8 +90,6 @@ const createProductsDiversos = async () => {
 
   const linkToSingleProduct = (id) => {
     let single = productos.find((item) => item.id === id);
-    console.log(single);
-    console.log(single.id);
     let params = new URLSearchParams();
     params.append("single", JSON.stringify(single));
 
