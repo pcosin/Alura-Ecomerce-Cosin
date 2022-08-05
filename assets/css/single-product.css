@@ -30,6 +30,12 @@
   line-height: 1.6;
 }
 
+.btn-products-same {
+  border: none;
+  background-color: inherit;
+  color: var(--color-blue);
+}
+
 @media (max-width: 700px) {
   .container-single {
     display: flex;
